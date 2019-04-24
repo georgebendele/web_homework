@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+  <title>HTML/CSS Homework 9</title>
+
+  <!--link to bootstrap style sheet-->
+  <!--link to local style sheet-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js">\x3C/script>')</script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+  <!--Nav Bar-->
+  <div class="col-sm-12">
+      <div class="col-sm-6">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" style="color: #ffffff" href="landing.html">Latitude</a></li>
+            </nav>
+      </div>
+      <div class="col-sm-6">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown"> <a href="javascript:void(0)" class="services dropdown-toggle"  data-toggle="dropdown" role="button" aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="max-temp.html">Max Temperature</a></li>
+                      <li><a href="humidity.html">Humidity</a></li>
+                      <li><a href="cloudiness.html">Cloudiness</a></li>
+                      <li><a href="wind-speed.html">Wind Speed</a></li>
+                    </ul>
+                  </li>
+                  <li class=""> <a href="comparison.html">Comparisons</a></li>
+                  <li class=""><a href="data.html" class="contact" >Data</a></li>
+                </ul>
+        </div>
+      </div>
+  
+    <!--End Nav Bar-->
+    
+  <!--Summary and Visualizations-->
+
+    <div class="col-md-12">
+        <div class="col-sm-12">  
+        <h2>Comparisons: Latitude vs. X</h2>
+        <hr>
+        <p>Click on any plot to get an in-depth analysis</p>
+        <div class="col-md-5">      
+            <div class="col-sm-12">  
+          <a href="max-temp.html">
+            <h2 style="text-align: center;">vs. Max Temp</h2>
+            <img src="Resources/assets/images/Fig1.png" alt="City Latitude vs. Max Temperature" style="width:100%"></a>
+        </div>
+        </div>
+        <div class="col-md-5">  
+            <div class="col-sm-12">
+        <a href="humidity.html">
+            <h2 style="text-align: center">vs. Humidity</h2>
+            <img src="Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity" style="width:100%"></a>
+        </div>
+        </div>
+        <div class="col-md-5">  
+            <div class="col-sm-12">
+        <a href="cloudiness.html">
+            <h2 style="text-align: center">vs. Cloudiness</h2>
+            <img src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness" style="width:100%"></a>
+        </div>
+        </div>
+        <div class="col-md-5">  
+            <div class="col-sm-12">
+        <a href="wind-speed.html">
+            <h2 style="text-align: center">vs. Wind Speed</h2>
+            <img src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed" style="width:100%"></a>
+        </div>
+      </div> 
+    </div>
+    </div>
+  </div>
+  <!--End Summary Row-->
+</div>
+<!--end container-->
+
+  <!--footer-->
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="footer">
+        <p class="footer-block">Website Created by G. Bendele</p>
+      </div>
+    </div>
+  </div>
+  <!--end footer-->
+
+
+</body>
+
+</html>
